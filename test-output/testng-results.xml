@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="9" total="12" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-02-04T18:58:14 IST" name="Suite" finished-at="2020-02-04T18:58:14 IST" duration-ms="64">
+    <groups>
+      <group name="Smoke">
+        <method signature="Forthtestng.forthtest2()[pri:0, instance:TestngPackage.Forthtestng@fdefd3f]" name="forthtest2" class="TestngPackage.Forthtestng"/>
+        <method signature="Thirdtestng.Thirdtestng2()[pri:0, instance:TestngPackage.Thirdtestng@3bd40a57]" name="Thirdtestng2" class="TestngPackage.Thirdtestng"/>
+        <method signature="Thirdtestng.different1()[pri:0, instance:TestngPackage.Thirdtestng@3bd40a57]" name="different1" class="TestngPackage.Thirdtestng"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2020-02-04T18:58:14 IST" name="Test" finished-at="2020-02-04T18:58:14 IST" duration-ms="64">
+      <class name="TestngPackage.Thirdtestng">
+        <test-method signature="Thirdtestng2()[pri:0, instance:TestngPackage.Thirdtestng@3bd40a57]" started-at="2020-02-04T18:58:14 IST" name="Thirdtestng2" finished-at="2020-02-04T18:58:14 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Thirdtestng2 -->
+        <test-method signature="different1()[pri:0, instance:TestngPackage.Thirdtestng@3bd40a57]" started-at="2020-02-04T18:58:14 IST" name="different1" finished-at="2020-02-04T18:58:14 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- different1 -->
+      </class> <!-- TestngPackage.Thirdtestng -->
+      <class name="TestngPackage.Forthtestng">
+        <test-method signature="forthtest2()[pri:0, instance:TestngPackage.Forthtestng@fdefd3f]" started-at="2020-02-04T18:58:14 IST" name="forthtest2" finished-at="2020-02-04T18:58:14 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forthtest2 -->
+      </class> <!-- TestngPackage.Forthtestng -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
